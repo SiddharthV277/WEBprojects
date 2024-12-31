@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camper Cafe review form</title>
+    <link rel="stylesheet" href="Survey form.css" />
+</head>
+
+<body>
+    <div class="form-container">
+        <h1 id="title">Camper Cafe Review</h1>
+        <p id="description">Please leave an honest review</p>
+        <form id="survey-form" method="post" action="">
+            <fieldset class="input-text">
+                <label id="name-label" for="name">Enter Your First Name:
+                    <input id="name" name="first-name" type="text" placeholder="Your name" required />
+                </label>
+                <label for="last-name">Enter Your Last Name:
+                    <input id="last-name" name="last-name" type="text" placeholder="Last-Name" required />
+                </label>
+                <label id="number-label" for="phone-number">Enter Your Phone Number:
+                    <input id="phone-number" name="phone-number" type="tel" placeholder="123-456-789-0" required />
+                </label>
+                <label id="email-label" for="email">Enter Your Email Address:
+                    <input id="email" name="email" type="email" placeholder="name@email.com" required />
+                </label>
+                <label for="birthday">Enter Your DOB:
+                    <input type="date" id="birthday" name="birthday" required>
+                </label>
+                <label id="number-label" for="number">Give us a rating:
+                    <input id="number" name="number" type="number" placeholder="1-10" min="1" max="999" required />
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <label for="dessert">Which desserts did you try today?</label>
+                <label>
+                    <input type="checkbox" id="dessert-donut" name="dessert" value="Donut"> Donut
+                </label>
+                <label>
+                    <input type="checkbox" id="dessert-cherry-pie" name="dessert" value="Cherry Pie"> Cherry Pie
+                </label>
+                <label>
+                    <input type="checkbox" id="dessert-cheesecake" name="dessert" value="Cheesecake"> Cheesecake
+                </label>
+                <label>
+                    <input type="checkbox" id="dessert-cinnamon-roll" name="dessert" value="Cinnamon Roll"> Cinnamon Roll
+                </label>
+
+                <label for="dropdown">Which Coffee did you order?</label>
+                <select id="dropdown" name="coffee">
+                    <option value="">Select Your Coffee</option>
+                    <option value="French Vanilla">French Vanilla</option>
+                    <option value="Caramel Macchiato">Caramel Macchiato</option>
+                    <option value="Pumpkin Spice">Pumpkin Spice</option>
+                    <option value="Hazelnut">Hazelnut</option>
+                    <option value="Mocha">Mocha</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>How would you like to rate the ambiance of the cafe?</legend>
+                <label>
+                    <input type="radio" name="ambiance" value="1"> 1 (Poor)
+                </label>
+                <label>
+                    <input type="radio" name="ambiance" value="2"> 2 (Fair)
+                </label>
+                <label>
+                    <input type="radio" name="ambiance" value="3"> 3 (Good)
+                </label>
+                <label>
+                    <input type="radio" name="ambiance" value="4"> 4 (Very Good)
+                </label>
+                <label>
+                    <input type="radio" name="ambiance" value="5"> 5 (Excellent)
+                </label>
+            </fieldset>
+
+            <fieldset>
+               
+                <label for="comment">Feel free to share your experience:</label>
+                <textarea name="comment" id="comment" rows="6" placeholder="Your comments..."></textarea>
+            </fieldset>
+
+            <input id="submit" type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
