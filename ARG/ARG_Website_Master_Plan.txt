@@ -1,0 +1,161 @@
+
+ARG WEBSITE MASTER PLAN — SIDDHARTH VERMA
+
+======================
+🌐 ARG CONCEPT OVERVIEW
+======================
+
+YOU: A normal guy living in Ranchi, India.
+
+INCITING INCIDENT: Your most beloved friend, a young female journalist working at a small newspaper firm, is shot in the back and killed. The death gets no real media coverage. What little is published in papers or news outlets is blurry, vague, and omits her name or details. 
+
+WHY? Because she was on the verge of exposing a massive government-level scandal — a secretive and unethical policy that could have ruined reputations and stirred unrest.
+
+You begin receiving **mysterious messages and images on your old cellphone via Telegram**, with threats warning: “If you aren’t careful, you’ll end up like her.”
+
+You decide to fight back. Not by being loud, but by being **clever and quiet**. You build a website that seems like a regular NGO site about drug abuse awareness, hiding the truth in plain sight. This site is your trapdoor — a **central hub** for all ARG-related material (videos, images, blogs, links).
+
+=========================
+🎯 ARG STORYLINE DETAILS
+=========================
+
+🔍 The Journalist (your friend): 
+- Was investigating a secret government "urban control" program posing as a public health initiative.
+- Discovered the plan was to **test psychotropic substances on the youth** through manipulated rehab trials.
+- Found that some addicted youth weren’t dying due to overdose, but were **being eliminated** for being potential whistleblowers or failed test subjects.
+
+🧾 Confidential Data:
+- A list of **fake rehab clinics** secretly operated by a government shell NGO.
+- Images of unused police FIRs, suggesting cover-ups.
+- A map pointing to a secret testing lab outside Ranchi.
+- Telegram chats between your friend and a mysterious informant called “R.”
+- A partially leaked manifesto with the government policy objective: “Subliminal Recalibration of Behavior in Vulnerable Clusters.”
+
+🧊 Society’s Reaction:
+- Media runs disinformation campaigns — claiming she was a drug addict.
+- Fake autopsy leaks point to drug-induced suicide.
+- Police seal her laptop and notes.
+- Public grows numb or disinterested — no real action.
+
+⚠️ Your Dilemma:
+- You fear for your life but realize staying quiet is worse.
+- You create a disguised website under the identity of a fake NGO.
+- You post **blurred truths**, cleverly hiding links to the deeper truth.
+
+===========================
+🕵️ ARG ENTRY POINT (SMART)
+===========================
+
+🎭 THE FRONT WEBSITE is a seemingly normal, discreet NGO website.
+
+🎯 Cover Story: NGO focused on "Drug Awareness and Recovery Support".
+
+🧠 ARG ENTRY METHOD:
+- One nav link (called “Lost Voices”) leads to a list of recent drug overdose cases.
+- One post reads: “Teenage girl shot by government due to her drug addiction” — a **bizarre and eye-catching title**.
+- It looks like clickbait, but clicking it leads to a **blog** with a personal tone, where the ARG begins.
+- Pop-up notifications appear on all pages regularly. All are random “drug case” articles.
+- BUT, whenever the girl's story is shown, “government” is bolded and underlined in red.
+- These notifications **also show up on the homepage**, and all other sections, giving recurring access.
+
+==================================
+🧭 SITE STRUCTURE (NAVIGATION MENU)
+==================================
+
+🏠 Home (landing page)  
+🧠 Symptoms & Risks  
+🆘 Get Help  
+💬 Recovery Stories  
+📚 Resources  
+👥 About Us  
+📞 Contact  
+📁 “Lost Voices” (drug case index page — former "drug-post")
+
+===========================
+🏠 HOMEPAGE — DESIGN DETAILS
+===========================
+
+📌 GOAL: Make it feel like a real, active non-profit helping with substance abuse. It should:
+- Build trust with the user.
+- Appear emotionally grounded, non-suspicious.
+- Use subtle imagery and clean layout.
+
+---------------------
+SECTION-BY-SECTION
+---------------------
+
+1. 🔝 NAVIGATION BAR (Sticky)
+- Left: “ReclaimCare” logo
+- Right Nav: Home, Symptoms & Risks, Get Help, Recovery Stories, Resources, About, Contact
+- Mobile version: collapses into hamburger menu
+- Color: White background with soft drop shadow
+- Font: Lato or Open Sans
+- CTA Button: “Get Help” in amber or blue
+
+2. 🏞️ HERO BANNER
+- Full-width background: Soft, hopeful sunrise or hilltop
+- Overlay: Text box with
+  - Heading: “Every life matters. Together, we can reclaim hope.”
+  - Subheading: “Helping individuals and families fight substance abuse and recover.”
+  - Buttons: “Know the Signs” → /symptoms, “Get Help Now” → /get-help
+- Animation: Fade-in
+
+3. 💡 WHAT WE DO (3 Column)
+- Icons: 📢 Awareness, 🤝 Support, 🌱 Recovery
+- Descriptions below each icon in cards with hover-lift effects
+
+4. 🧾 FEATURED RESOURCE BLOCK
+- Left: Image of mock PDF (Family Support Kit)
+- Right: Title, short blurb, and download button
+- Button labeled: “Download Now”
+
+5. 📰 LATEST ARTICLES SECTION
+- Section title: “From Our Experts”
+- Grid of 3 articles:
+  - Thumbnail (e.g., pill bottle)
+  - Title + short snippet
+  - “Read More” button
+
+6. 📢 CTA BANNER (Call to Action)
+- Amber background, centered text:
+  - “If you or someone you know is struggling with addiction, help is here.”
+  - “We offer free consultations and emergency guidance.”
+  - Button: “Contact a Counselor”
+
+7. ⚫ FOOTER
+- Left: Logo + tagline “Reclaiming lives, one step at a time.”
+- Right: Address, contact email, helpline number, social media links, quick links
+
+---------------------
+🎨 STYLE OVERVIEW
+---------------------
+
+- Primary Color: #375A7F (navy blue)
+- Accent: #F1B24A (amber)
+- Font: Open Sans or Lato
+- Background: White or soft gray
+- Button: Rounded, slight drop shadow
+
+----------------------
+📸 IMAGES TO USE (HOMEPAGE ONLY)
+----------------------
+
+1. Hero Banner: Sunrise, hopeful silhouette (hilltop, field)
+2. Section Icons: Awareness (megaphone), Support (hands), Recovery (leaf)
+3. PDF Cover (mockup): “Family Support Kit”
+4. Article thumbnails: Pill bottle, school, therapy office
+5. Footer Logo: Text wordmark like “ReclaimCare” (fake NGO)
+
+----------------------------
+📍 NOTE
+----------------------------
+
+- The ARG begins only when the user clicks the bizarre blog title.
+- Pop-up system is essential — serves as gentle reminders or loops.
+- The site remains functionally valid and useful, while hiding real data.
+
+=== END OF DOCUMENT ===
+
+
+
+
